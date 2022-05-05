@@ -1,0 +1,1 @@
+var count=5,redirect="https://aryansuzuki.com";function countDown(){count>=0?(document.getElementById("timer").innerHTML=count--,setTimeout("countDown()",1e3)):window.location.href=redirect}countDown();
